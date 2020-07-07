@@ -1,6 +1,6 @@
 # tjraekphad macro keyboard #
 
-## Requirement specification 33
+## Requirement specification
 
 ### MCU ###
 
@@ -39,5 +39,5 @@ The rotary encoders shall be at the quantity of three... no more, no less. Not t
 These rotary encoders shall be connected to interrupt capable pins (alternatively connected to some sort of timer based pin, or something).
 
 
-    ### RGB LEDs ###
+### RGB LEDs ###
 Underneath each keycap for awesome optics and nerd cred.
