@@ -1,2 +1,2 @@
-# tjreakphad
+# tjraekphad
 Homebrew macro numpad
