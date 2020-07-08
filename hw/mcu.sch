@@ -367,7 +367,7 @@ Text HLabel 4050 5350 0    50   BiDi ~ 0
 ROW3
 Text HLabel 4050 5450 0    50   BiDi ~ 0
 ROW4
-Text HLabel 8700 4900 2    50   Output ~ 0
+Text HLabel 4000 4050 0    50   Output ~ 0
 LED_SER
 Text HLabel 5850 4050 2    50   Input ~ 0
 ROT1_A
@@ -375,22 +375,18 @@ Text HLabel 5850 4150 2    50   Input ~ 0
 ROT1_B
 Text HLabel 5850 4250 2    50   Input ~ 0
 ROT1_SW
-Text HLabel 8700 5400 2    50   Input ~ 0
+Text HLabel 5850 4350 2    50   Input ~ 0
 ROT2_A
-Text HLabel 8700 5475 2    50   Input ~ 0
+Text HLabel 5850 4450 2    50   Input ~ 0
 ROT2_B
-Text HLabel 8700 5550 2    50   Input ~ 0
+Text HLabel 5850 4550 2    50   Input ~ 0
 ROT2_SW
-Text HLabel 8700 5675 2    50   Input ~ 0
+Text HLabel 5850 4650 2    50   Input ~ 0
 ROT3_A
-Text HLabel 8700 5750 2    50   Input ~ 0
+Text HLabel 5850 4750 2    50   Input ~ 0
 ROT3_B
-Text HLabel 8700 5825 2    50   Input ~ 0
+Text HLabel 5850 4850 2    50   Input ~ 0
 ROT3_SW
-Wire Wire Line
-	5625 5150 6350 5150
-Wire Wire Line
-	5650 5250 6350 5250
 Text Label 6175 5150 0    50   ~ 0
 USB_D-
 Text Label 6175 5250 0    50   ~ 0
@@ -435,4 +431,26 @@ Wire Wire Line
 	4050 5350 4325 5350
 Wire Wire Line
 	4325 5450 4050 5450
+Text Notes 6650 3675 3    50   ~ 0
+Check if the rotation encoder\npins are chosen with care \n(I don't know as of the writing\n of this text)
+Text HLabel 6550 5150 2    50   Input ~ 0
+USB_D-
+Text HLabel 6550 5250 2    50   Input ~ 0
+USB_D+
+Wire Wire Line
+	5625 5150 6550 5150
+Wire Wire Line
+	5650 5250 6550 5250
+Wire Wire Line
+	5625 4950 6200 4950
+Wire Wire Line
+	5625 5050 6200 5050
+Text Label 5850 4950 0    50   ~ 0
+MCU_TX
+Text Label 5850 5050 0    50   ~ 0
+MCU_RX
+Text Notes 4575 3350 0    50   ~ 0
+TODO:\nBOOT0 - take care of it
+Text Notes 2475 5100 0    50   ~ 0
+Check Datasheet for SPI and I2C\nNeeded for speaking with memory\nand speaking with display
 $EndSCHEMATC

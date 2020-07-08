@@ -345,6 +345,31 @@ X VCC_A 9 -100 -350 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
+# dk_Ferrite-Beads-and-Chips_BLM18AG601SN1D
+#
+DEF dk_Ferrite-Beads-and-Chips_BLM18AG601SN1D FB 0 40 Y Y 1 F N
+F0 "FB" -100 150 60 H V C CNN
+F1 "dk_Ferrite-Beads-and-Chips_BLM18AG601SN1D" 0 -150 60 H V L CNN
+F2 "digikey-footprints:0603" 200 200 60 H I L CNN
+F3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" 200 300 60 H I L CNN
+F4 "490-1014-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "BLM18AG601SN1D" 200 500 60 H I L CNN "MPN"
+F6 "Filters" 200 600 60 H I L CNN "Category"
+F7 "Ferrite Beads and Chips" 200 700 60 H I L CNN "Family"
+F8 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/murata-electronics-north-america/BLM18AG601SN1D/490-1014-1-ND/584462" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "FERRITE BEAD 600 OHM 0603 1LN" 200 1000 60 H I L CNN "Description"
+F11 "Murata Electronics North America" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+P 2 0 1 0 -50 0 -100 0 N
+P 2 0 1 0 50 0 100 0 N
+P 5 0 1 0 -50 100 -100 50 50 -100 100 -50 -50 100 f
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # dk_PMIC-Voltage-Regulators-Linear_LD1117S33CTR
 #
 DEF dk_PMIC-Voltage-Regulators-Linear_LD1117S33CTR U 0 20 Y Y 1 F N
